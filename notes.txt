@@ -1,0 +1,14 @@
+Routing :- It is a process to navigate b/w one save to another 
+       in react with the help of routing we can create SPA (Single page application)
+       in React we went to handle the navigation when a URL is matech .
+    
+    Router Library :- 
+      -> React Router - is a 3rd party library which is used to perfom routing in react JS.
+            npm install react-router-dom --save
+            *** React Router 6 :-
+            React Router important component 
+            -> BrowserRouter : Top level conponent of the react application.
+            ->Routes (6)
+            ->Route :- it is a child component of Routes .
+                       When Routes is rendered ,it Search through its child (Route) to find the path 
+                       is match with the URL .if it match then it load the DOM.
